@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.8.6/clipboard-polyfill.js"></script>
+    <script src="https://kit.fontawesome.com/7e535151a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Reconocimiento de voz</title>
+</head>
+<body>
+    <div id="botones">
+        <button id="record_b">Start Record</button>
+        <button id="stop_b">Stop Record</button>
+    </div>
+    <div id="textoAviso">
+        <p>Puede tardar en reconocer el texto. En caso de tardanza presiona stop e inicia denuevo!</p>
+        <p>Si la frase contiene un color, tomara el color gerarquicamente en el sig orden: Naranja, verde, amarillo, azul, rojo</p>
+    </div>
+
+    <div id="texto">
+        <p id="texto-p">Aquí ira el texto que digas al empezar a grabar!</p>
+    </div>
+    
+    <div id="clip">
+        <button id="clipBoard">Copy text</button>
+        <p id="copyAlert">Texto copiado!<i class="fa-solid fa-circle-check"></i></p>
+    </div>
+
+    <div id="informacion">
+        <p>Contactame!</p>
+        <p>Correo: axel_ibarra00@hotmail.com</p>
+        <p>Proyecto: Reconocimiento de voz y control de comandos por voz</p>
+    </div>
+    
+    <footer id="listas">
+        <td>
+            <a href="https://www.linkedin.com/in/axel-nahuel-ibarra-353685207/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/axel_ibarra00/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a id="discord"><i class="fa-brands fa-discord"></i></a>
+        </td>
+        <th>
+            <p id="copyAlert2">ID copiado!<i class="fa-solid fa-circle-check"></i></p>
+        </th>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

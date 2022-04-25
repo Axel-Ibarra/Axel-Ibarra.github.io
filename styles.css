@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Century Gothic";
+}
+
+body{
+    background-color: #ededed;
+}
+#textoAviso{
+    display: inline-flexbox;
+    text-align: center;
+    transform: translateY(27px);
+    background-color: #00AAE4;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 7px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#botones{
+    text-align: center;
+    margin-top: 25px;
+}
+#record_b{
+    background-color: #00AAE4;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transform: translateY(25px);
+    cursor: pointer;
+}
+
+#stop_b{
+    background-color: #00AAE4;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transform: translateY(25px);
+    cursor: pointer;
+}
+
+#clip{
+    text-align: center;
+}
+
+#clipBoard{
+    background-color: #00AAE4;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#clip p{
+    visibility: hidden;
+}
+
+#stop_b:hover {background-color: #ccc}
+
+#stop_b:active {
+    background-color: #ccc;
+    transform: translateY(27px);
+  }
+
+#record_b:hover {background-color: #ccc}
+
+#record_b:active {
+    background-color: #ccc;
+    transform: translateY(27px);
+  }
+
+#clipBoard:hover {background-color: #ccc}
+
+#clipBoard:active {
+    background-color: #ccc;
+    transform: translateY(2px);
+  }
+
+
+#texto{
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 0px 0px 15px #ccc;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 230, 230);
+    
+}
+
+#listas{
+    display: inline-flexbox;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#copyAlert2{
+    visibility: hidden;
+    font-size: 15px;
+}
+#listas p{
+    visibility: hidden;
+}
+
+/*gris original rgb(220, 220, 220); */
